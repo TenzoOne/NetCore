@@ -8,7 +8,6 @@ namespace AutomapperDtos.Models
 {
     public class AutorCreacionDTO
     {
-        [Required]
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
     }

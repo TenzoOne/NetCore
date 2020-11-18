@@ -9,7 +9,6 @@ namespace AutomapperDtos.Models
     public class AutorDTO
     {
         public int Id { get; set; }
-        [Required]
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public List<LibroDTO> Books { get; set; }
